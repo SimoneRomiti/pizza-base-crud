@@ -16,7 +16,7 @@
 			</div>
 		@endif
 
-		<div class="card animate__animated animate__bounceInDown" style="width: 18rem;">
+		<div class="card animate__animated animate__bounceInDown" style="width: 18rem; margin: auto">
 			<img src="{{ $pizza->img }}" class="card-img-top" alt="immagine pizza">
 			<div class="card-body">
 				<h2 class="card-title">{{$pizza->name}}</h2>

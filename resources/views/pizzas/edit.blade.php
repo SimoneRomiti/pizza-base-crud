@@ -13,6 +13,7 @@
 				</div>
 			@endif
 
+			<h1>Modifica la pizza</h1>
 			<form action="{{ route('pizzas.update', $pizza->id) }}" method="post">
 				@csrf
 				@method('PUT')

@@ -13,6 +13,8 @@
 				</div>
 			@endif
 
+			<h1>Crea una nuova pizza</h1>
+
 			<form action="{{ route('pizzas.store') }}" method="post">
 				@csrf
 				@method('POST')
